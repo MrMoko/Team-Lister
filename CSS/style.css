@@ -73,17 +73,19 @@ h1 {
 }
 #egg:hover {
 	
-	background-image: url('../resc/meh.jpg'); /*change the filename to suit yours*/ 
-	background-repeat: no-repeat; /* prevents the image from repeating*/
-	background-size: 100px 100px;
-	width: 100x; height: 100px; /* change the H/W to suit the size of your image*/
-	border: 1px solid black;
+	background-image: url('../resc/meh.jpg');
+	background-repeat: no-repeat; 
+	background-size: 50px 50px;
+	width: 50x; 
+	height: 50px;
+	border: 0px solid black;
 }
 
 #egg .text{
 	position: relative;
-	top: 90px;
 	text-align: center;
+	bottom: 24%;
+	right: 25%;
 	color: white;
 	visibility: hidden;
 }
